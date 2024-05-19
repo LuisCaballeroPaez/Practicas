@@ -1,0 +1,58 @@
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.flex-container{
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* El flex-flow es una abreviatura de flex-direction y flex-wrap. */
+    flex-flow: row wrap;
+    justify-content: center;
+    /* El align-items es para alinear los elementos en el eje vertical. */
+    /* align-items: center; */
+    align-content: center;    
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.caja{
+    border: 1px solid rgb(70, 70, 70);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+.c1{
+    background: lightblue;
+    order: 2;
+    /* El flex-grow Define cuánto debería un elemento flexbox crecer si hay espacio disponible.
+    El valor predeterminado es 0, lo que significa que el elemento no crecerá. */
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.c2{
+    background: lightcoral;
+    order: 3;
+    flex-grow: 1;
+}
+
+.c3{
+    background: lightgreen;
+    order: 1;
+    flex-grow: 1;
+}
+

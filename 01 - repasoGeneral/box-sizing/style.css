@@ -1,0 +1,21 @@
+.caja{
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    height: 180px;
+    margin: 30px auto;
+    padding: 50px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+/*
+La propiedad box-sizing te permite modificar este comportamiento por defecto y existen dos valores principales:
+
+content-box (predeterminado): En este modo, el ancho y alto especificados se aplican únicamente al contenido del elemento.
+border-box: Con este valor, el ancho y alto abarcan el contenido, el borde y el relleno.
+*/

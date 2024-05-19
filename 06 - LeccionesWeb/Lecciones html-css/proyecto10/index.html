@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <title>Proyecto 10 - CSS</title>
+</head>
+<body>
+    <div class="layout">
+
+        <h1>Busca tu hotel</h1>
+        <form class="layout__search">
+            <input type="search" class="search__input" placeholder="Busca tu hotel y lo encontraremos">
+            
+            <button class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+
+        <main class="layout__results">
+            <article class="results__results">
+                <p class="results__subtitle">Nombre:</p>
+                <h3 class="results__title">Hotel Luis</h3>
+            </article>
+
+            <article class="results__results">
+                <p class="results__subtitle">Ubicacion:</p>
+                <h3 class="results__title">Calle Falsa 123</h3>
+            </article>
+
+            <article class="results__results">
+                <p class="results__subtitle">Fecha</p>
+                <h3 class="results__title">09/05/2024</h3>
+            </article>
+        </main>
+
+        <section  class="layout__map">
+            <iframe class="map__frame" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3284.0037312426416!2d-58.395112373503466!3d-34.604067157517854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scorriente%20y%20callao!5e0!3m2!1ses-419!2sar!4v1715308863483!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+</body>
+</html>

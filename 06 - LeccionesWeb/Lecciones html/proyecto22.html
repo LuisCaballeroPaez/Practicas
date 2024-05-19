@@ -1,0 +1,97 @@
+<!-- 
+Crea un formulario con un campo de tipo textarea
+Email, contraseña, radio, select, checkbox, fichero, fecha, numero, color y submit.
+
+Todos los campos deberan estar dentro de un fieldset
+y usar el campo legend
+
+todos los campos deberan tener un label.
+ -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto 22 - html</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        <fieldset>
+            <fieldset>
+                <legend>Descripcion</legend>
+
+                <label for="descripcion">Introduce una descripcion</label>
+
+
+                <textarea name="descripcion" id="descripcion"></textarea>
+
+            </fieldset>
+            <fieldset>
+                <legend>Datos de Usuario</legend>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Ingrese un email" />
+
+
+                <label>Contraseña:</label>
+                <input type="password" name="password" placeholder="ingrese la contraseña" />
+
+            </fieldset>
+            <fieldset>
+                <legend>Edad</legend>
+
+                <label>Edad:</label>
+                <input type="radio" name="edad" id="mayor" />
+                <label for="">Tengo 21 años</label>
+                <input type="radio" name="edad" id="menor" />
+                <label>Soy menor</label>
+                <input type="radio" name="edad" id="anciano" />
+                <label>Mas de 65 años</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Select</legend>
+                <label>De que provincia sos:</label>
+                <select>
+                    <option>Bs As</option>
+                    <option>Santa Fe</option>
+                    <option>Cordoba</option>
+                    <option>San juan</option>
+                    <option>C.A.B.A</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>checkbox</legend>
+                <label for="Vegano">Vegano</label><input type="checkbox" name="vegano" id="vegano">
+            </fieldset>
+
+            <fieldset>
+                <legend>Archivo</legend>
+                <label for="archivo">Sube tu foto</label>
+                <input type="file" name="archivo" id="archivo" />
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Fecha</legend>
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha" />
+            </fieldset>
+
+            <fieldset>
+                <legend>Color</legend>
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color" />
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar formulario">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
